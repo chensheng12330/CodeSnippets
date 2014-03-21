@@ -12,8 +12,11 @@
 	<string>/*!
  @header   &lt;#property#&gt;
  @abstract &lt;#property#&gt;
- @author   &lt;#property#&gt;
- @version  &lt;#property#&gt;
+ @par      Par1| &lt;#property#&gt;
+ @return   &lt;#property#&gt;
+ @see      &lt;#property#&gt;
+ @author   sherwin.chen
+ @version  1.0.0
  */</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0A0C91DD-DB75-4EEB-99A8-C42E9258F66A</string>
