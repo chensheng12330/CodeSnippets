@@ -3,30 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>tq_timer</string>
+	<string>uilabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeExpression</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// 创建
-self.var = [NSTimer scheduledTimerWithTimeInterval:1.5
-                                                            target:self
-                                              selector:@selector(&lt;#timerMethod#&gt;)
-                                                          userInfo:nil
-                                                           repeats:YES];
-// 取消
-[self.&lt;#var#&gt; invalidate];
-
-</string>
+	<string>&lt;#变量名#&gt; = [[UILabel alloc] init];
+    [&lt;#变量名#&gt; setFont:[UIFont systemFontOfSize:&lt;#字体大小#&gt;.0f]];
+    [&lt;#变量名#&gt; setTextColor:&lt;#字体颜色#&gt;];
+    [&lt;#变量名#&gt; setTextAlignment:NSTextAlignmentCenter];
+    [&lt;#变量名#&gt; setText:&lt;#文字#&gt;];
+    [self addSubview:&lt;#变量名#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C2DF7BF7-EF10-4F82-A9D3-D0E9C0991E9E</string>
+	<string>1E2F5952-9B75-4C3E-813F-7A18650AF62C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>tq_timer</string>
+	<string>Label</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>tq_timer</string>
+	<string>Label Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uibutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#变量名#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+        &lt;#变量名#&gt;.titleLabel.textAlignment = NSTextAlignmentCenter;
+        &lt;#变量名#&gt;.layer.cornerRadius = &lt;#值#&gt;.0f;
+        &lt;#变量名#&gt;.layer.masksToBounds = YES;
+        [&lt;#变量名#&gt;.titleLabel setFont:[UIFont systemFontOfSize:&lt;#值#&gt;.0f]];
+        [&lt;#变量名#&gt; setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        [&lt;#变量名#&gt; setBackgroundImage:[UIImage imageNamed:&lt;#(nonnull NSString *)#&gt;]
+                                 forState:UIControlStateNormal];
+        [&lt;#变量名#&gt; setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithRed:&lt;#值#&gt; green:&lt;#值#&gt; blue:&lt;#值#&gt; alpha:&lt;#值#&gt;] size:CGSizeMake(&lt;#值#&gt;.f, &lt;#值#&gt;.f)]
+                                 forState:UIControlStateHighlighted];
+        [&lt;#变量名#&gt; addTarget:self action:@selector( &lt;#响应事件#&gt; ) forControlEvents:UIControlEventTouchUpInside];
+        [&lt;#变量名#&gt; setTitle:&lt;#按钮名称#&gt; forState:UIControlStateNormal];
+        [self addSubview:&lt;#变量名#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C56298B6-D395-4616-B8D8-F982AECDF550</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIbutton</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton Mark</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

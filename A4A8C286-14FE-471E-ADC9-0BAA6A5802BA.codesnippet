@@ -3,32 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@mmd</string>
+	<string>update</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/*!
- @method     &lt;#property#&gt;
- @abstract   &lt;#property#&gt;
- @discussion &lt;#property#&gt;
- @param      &lt;#property#&gt;
- @param      &lt;#property#&gt;
- @result     &lt;#property#&gt;
- */</string>
+	<string>/* Update With Sherwin.Chen On &lt;#201日期#&gt;
+     Log:&lt;#代码修改说明#&gt;
+     */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>47D83924-C703-483B-A948-69EB87853A4B</string>
+	<string>A4A8C286-14FE-471E-ADC9-0BAA6A5802BA</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Method declar</string>
+	<string>code</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mmd</string>
+	<string>Update_Code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
