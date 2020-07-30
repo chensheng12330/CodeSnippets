@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>update</string>
+	<string>strongself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/* Update With Sherwin.Chen On &lt;#201日期#&gt;
-     Log:&lt;#代码修改说明#&gt;
-     */</string>
+	<string>__strong __typeof(weakSelf)strongSelf = weakSelf;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>A4A8C286-14FE-471E-ADC9-0BAA6A5802BA</string>
+	<string>2982CFF6-83CC-403E-A3BE-6A8481B0AF03</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>code</string>
+	<string>强引用</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Update_Code</string>
+	<string>_strong</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
